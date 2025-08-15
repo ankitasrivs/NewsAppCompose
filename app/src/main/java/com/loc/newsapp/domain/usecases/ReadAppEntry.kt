@@ -8,7 +8,7 @@ class ReadAppEntry(
     private val locationUserManager: LocationUserManager
 ) {
 
-    suspend operator fun invoke(): Flow<Boolean> {
+     operator fun invoke(): Flow<Boolean> {
         return locationUserManager.readAppEntry()
     }
 }
