@@ -1,6 +1,7 @@
 package com.loc.newsapp.domain.usecases
 
-import LocationUserManager
+import com.loc.newsapp.domain.manager.LocationUserManager
+
 
 class SaveAppEntry (
     private val localUserManager: LocationUserManager

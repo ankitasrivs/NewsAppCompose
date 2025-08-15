@@ -1,8 +1,7 @@
 package com.loc.newsapp.domain.manager
 
-import LocationUserManager
+
 import android.content.Context
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
